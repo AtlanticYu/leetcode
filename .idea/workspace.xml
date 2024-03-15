@@ -5,24 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="59f7c543-f8e6-4d09-9d45-91c70bcdefd1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/binarytree/DiameterOfBinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/binarytree/Flatten.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/binarytree/KthLargestLevelSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/binarytree/MirrorTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/binarytree/TreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/chaintable/LRUCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/doubleindicator/LengthOfLongestSubstring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dp/CanPartition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dp/Change.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dp/CoinChange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/twentyfour/february/RangeSumBST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/twentyfour/february/TreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/twentyfour/march/MyQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/twentyfour/march/MyStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/twentyfour/march/ValidPartition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/search/leftBound.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/search/searchRange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/slidingwindow/MinWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/twentyfour/march/CapitalizeTitle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/twentyfour/march/FindElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/twentyfour/march/FindKOr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/twentyfour/march/GetHint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/twentyfour/march/TreeNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/binarytree/MinDepth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/binarytree/MinDepth.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/chaintable/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/chaintable/ListNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,18 +68,19 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.twentyfour.march" />
       <recent name="org.example.twentyfour.february" />
       <recent name="org.example.chaintable" />
       <recent name="org.example.twentyfour.january" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LengthOfLongestSubstring">
-    <configuration name="BracketMatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.twentyfour.january.BracketMatch" />
+  <component name="RunManager" selected="Application.CapitalizeTitle">
+    <configuration name="CapitalizeTitle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.twentyfour.march.CapitalizeTitle" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.twentyfour.january.*" />
+          <option name="PATTERN" value="org.example.twentyfour.march.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,6 +101,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MinWindow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.slidingwindow.MinWindow" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.slidingwindow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="NumsGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.twentyfour.february.NumsGame" />
       <module name="leetcode" />
@@ -122,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SampleString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.twentyfour.january.SampleString" />
+    <configuration name="leftBound" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.search.leftBound" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.twentyfour.january.*" />
+          <option name="PATTERN" value="org.example.search.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,10 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CapitalizeTitle" />
+        <item itemvalue="Application.MinWindow" />
+        <item itemvalue="Application.leftBound" />
         <item itemvalue="Application.LengthOfLongestSubstring" />
         <item itemvalue="Application.NumsGame" />
-        <item itemvalue="Application.BracketMatch" />
-        <item itemvalue="Application.SampleString" />
       </list>
     </recent_temporary>
   </component>
@@ -174,7 +180,14 @@
       <workItem from="1708687444307" duration="5039000" />
       <workItem from="1708950003893" duration="1856000" />
       <workItem from="1709027530247" duration="339000" />
-      <workItem from="1709284594997" duration="4916000" />
+      <workItem from="1709284594997" duration="5043000" />
+      <workItem from="1709517753768" duration="5334000" />
+      <workItem from="1709690759614" duration="3358000" />
+      <workItem from="1709694962511" duration="4969000" />
+      <workItem from="1710075801492" duration="1303000" />
+      <workItem from="1710160829508" duration="2413000" />
+      <workItem from="1710255281041" duration="1958000" />
+      <workItem from="1710308364453" duration="7224000" />
     </task>
     <servers />
   </component>
@@ -208,11 +221,16 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/doubleindicator/LengthOfLongestSubstring.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="2" />
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/slidingwindow/MinWindow.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/leetcode$MinWindow.ic" NAME="MinWindow Coverage Results" MODIFIED="1709693402651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.example.slidingwindow.*</FILTER>
+    </SUITE>
   </component>
 </project>
