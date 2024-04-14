@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="59f7c543-f8e6-4d09-9d45-91c70bcdefd1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dp/ChangeReview.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/singlestack/NextGreaterElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/slidingwindow/CheckInclusion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/twentyfour/march/FrequencyTracker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/twentyfour/march/NumArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/twentyfour/april/MyHashSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/twentyfour/april/MyHashSet2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/twentyfour/march/MaxArrayValue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,12 +29,8 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
-    </option>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="2aiZJZl9oqZ25xNcYVnefKpX9a2" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -65,6 +60,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.twentyfour.april" />
       <recent name="org.example.twentyfour.march" />
       <recent name="org.example.twentyfour.february" />
       <recent name="org.example.chaintable" />
@@ -192,6 +188,7 @@
       <workItem from="1711017282318" duration="3000" />
       <workItem from="1711017289254" duration="4306000" />
       <workItem from="1711375711488" duration="2446000" />
+      <workItem from="1713102548676" duration="2285000" />
     </task>
     <servers />
   </component>
