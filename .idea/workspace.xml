@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="59f7c543-f8e6-4d09-9d45-91c70bcdefd1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dp/ChangeReview.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/singlestack/NextGreaterElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/slidingwindow/CheckInclusion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/twentyfour/march/FrequencyTracker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/twentyfour/march/NumArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/binarytree/findSubtree2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/chaintable/ReverseList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/chaintable/reverseBetween.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/twentyfour/april/FinalString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/twentyfour/april/MaximumCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/twentyfour/april/MinOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/twentyfour/march/CountWays.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,26 +73,13 @@
       <recent name="org.example.twentyfour.january" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FrequencyTracker">
-    <configuration name="CapitalizeTitle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.twentyfour.march.CapitalizeTitle" />
+  <component name="RunManager" selected="Application.MaximumCount">
+    <configuration name="CountWays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.twentyfour.march.CountWays" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.twentyfour.march.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CheckInclusion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.slidingwindow.CheckInclusion" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.slidingwindow.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +100,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinWindow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.slidingwindow.MinWindow" />
+    <configuration name="MaximumCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.twentyfour.april.MaximumCount" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.slidingwindow.*" />
+          <option name="PATTERN" value="org.example.twentyfour.april.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.twentyfour.april.MinOperations" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.twentyfour.april.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaximumCount" />
+        <item itemvalue="Application.MinOperations" />
+        <item itemvalue="Application.CountWays" />
         <item itemvalue="Application.FrequencyTracker" />
         <item itemvalue="Application.NumArray" />
-        <item itemvalue="Application.CheckInclusion" />
-        <item itemvalue="Application.CapitalizeTitle" />
-        <item itemvalue="Application.MinWindow" />
       </list>
     </recent_temporary>
   </component>
@@ -192,6 +194,17 @@
       <workItem from="1711017282318" duration="3000" />
       <workItem from="1711017289254" duration="4306000" />
       <workItem from="1711375711488" duration="2446000" />
+      <workItem from="1711454270872" duration="2352000" />
+      <workItem from="1711525446222" duration="26000" />
+      <workItem from="1711526016559" duration="257000" />
+      <workItem from="1711533430650" duration="3713000" />
+      <workItem from="1711971932468" duration="1612000" />
+      <workItem from="1712038843505" duration="52000" />
+      <workItem from="1712477410148" duration="2404000" />
+      <workItem from="1712580199813" duration="4315000" />
+      <workItem from="1712644714635" duration="6391000" />
+      <workItem from="1712747670585" duration="6942000" />
+      <workItem from="1712904675784" duration="598000" />
     </task>
     <servers />
   </component>
