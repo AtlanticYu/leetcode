@@ -34,4 +34,19 @@ public class Change {
         }
         return dp[amount][coins.length];
     }
+
+    // 一维, 排列背包, 先遍历物品, 再遍历背包（零钱2）
+    public int chang2e(int amount, int[] coins) {
+        int[] dp = new int[amount + 1];
+        int n = coins.length;
+        dp[0] = 1;
+        for(int i = 0; i < n; i++) {
+            for(int j = 1; j <= amount; j++) {
+                if(coins[i] <= j) {
+                    dp[j] = dp[j] + dp[j - coins[i]];
+                }
+            }
+        }
+        return dp[amount];
+    }
 }

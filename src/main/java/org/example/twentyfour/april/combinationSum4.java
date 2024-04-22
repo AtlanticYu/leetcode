@@ -39,9 +39,38 @@ public class combinationSum4 {
         return dp[m - 1][target];
     }
 
+    // 组合背包, 先遍历, 再遍历物品（本题）
+    public static int combinationSum42(int[] nums, int target) {
+        int[] dp = new int[target + 1];
+        dp[0] = 1;
+        for(int j = 1; j < target; j++) {
+            for(int item : nums) {
+                if(j >= item) {
+                    dp[j] += dp[j - item];
+                }
+            }
+        }
+        return dp[target];
+    }
+
     public static void main(String[] args) {
-        int res = combinationSum4(new int[]{1,2,3}, 4);
+        int res = combinationSum42(new int[]{1,2,3}, 4);
         System.out.println(res);
         int[][][] ss = new int[2][2][2];
+    }
+
+    // 排列背包, 先遍历物品, 再遍历背包（零钱2）
+    public int change(int amount, int[] coins) {
+        int[] dp = new int[amount + 1];
+        int n = coins.length;
+        dp[0] = 1;
+        for(int i = 0; i < n; i++) {
+            for(int j = 1; j <= amount; j++) {
+                if(coins[i] <= j) {
+                    dp[j] = dp[j] + dp[j - coins[i]];
+                }
+            }
+        }
+        return dp[amount];
     }
 }
