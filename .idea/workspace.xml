@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="59f7c543-f8e6-4d09-9d45-91c70bcdefd1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/binarytree/findSubtree2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/chaintable/ReverseList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/chaintable/reverseBetween.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/twentyfour/april/FinalString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/twentyfour/april/MaximumCount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/twentyfour/april/MinOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/twentyfour/march/CountWays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/chaintable/IsPalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/twentyfour/april/MyHashMap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +68,7 @@
       <recent name="org.example.twentyfour.january" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MaximumCount">
+  <component name="RunManager" selected="Application.MyHashMap">
     <configuration name="CountWays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.twentyfour.march.CountWays" />
       <module name="leetcode" />
@@ -126,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.twentyfour.march.NumArray" />
+    <configuration name="MyHashMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.twentyfour.april.MyHashMap" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.twentyfour.march.*" />
+          <option name="PATTERN" value="org.example.twentyfour.april.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyHashMap" />
         <item itemvalue="Application.MaximumCount" />
         <item itemvalue="Application.MinOperations" />
         <item itemvalue="Application.CountWays" />
         <item itemvalue="Application.FrequencyTracker" />
-        <item itemvalue="Application.NumArray" />
       </list>
     </recent_temporary>
   </component>
@@ -205,6 +200,8 @@
       <workItem from="1712644714635" duration="6391000" />
       <workItem from="1712747670585" duration="6942000" />
       <workItem from="1712904675784" duration="598000" />
+      <workItem from="1713187497512" duration="4112000" />
+      <workItem from="1713246810170" duration="5249000" />
     </task>
     <servers />
   </component>
